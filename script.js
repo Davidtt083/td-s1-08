@@ -41,7 +41,7 @@ jQuery(window).resize(function () {
 });
 
 
-function mostrarp(divNum){
+function mostrarp(divNum) {
 	document.getElementById("text1").classList.add("hide");
 	document.getElementById("text2").classList.add("hide");
 	document.getElementById("text3").classList.add("hide");
@@ -50,19 +50,19 @@ function mostrarp(divNum){
 	document.getElementById("text6").classList.add("hide");
 	document.getElementById("text7").classList.add("hide");
 
-  
+
 	// Show the specific div
 	document.getElementById("text" + divNum).classList.remove("hide");
 }
 
-function quitar(){
-	let negro= document.getElementById("negro");
+function quitar() {
+	let negro = document.getElementById("negro");
 
 	negro.classList.remove("negro");
 	negro.classList.add("negro-move");
 }
 
-function cerrar(){
+function cerrar() {
 	document.getElementById("text1").classList.add("hide");
 	document.getElementById("text2").classList.add("hide");
 	document.getElementById("text3").classList.add("hide");
@@ -70,4 +70,9 @@ function cerrar(){
 	document.getElementById("text5").classList.add("hide");
 	document.getElementById("text6").classList.add("hide");
 	document.getElementById("text7").classList.add("hide");
+}
+
+function mostrarsuborg(btnNun) {
+	// Show the specific div
+	document.getElementById("btn" + btnNun).classList.remove("hide");
 }
