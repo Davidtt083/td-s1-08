@@ -223,7 +223,7 @@ a {
   background: url(suborg-03.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  z-index: 98;
+  z-index: 100;
 }
 
 .btn5 {
@@ -236,7 +236,7 @@ a {
   background: url(suborg-04.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  z-index: 97;
+  z-index: 105;
 }
 
 .btn6 {
